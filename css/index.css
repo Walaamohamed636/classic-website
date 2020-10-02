@@ -1,0 +1,419 @@
+/*statics of the page*/
+html{
+        scroll-behavior: smooth;
+       
+}
+body{
+    font-family: sans-serif;
+   
+}
+.clear-fix{
+    clear: both;
+}
+
+/*statics of the page*/
+/*start navigation*/
+.slide{
+    background-image: url(../images/header2.jpg);
+   position: relative;
+}
+.nav{
+  position: relative;
+    color:white;
+    z-index: 2;
+}
+
+.nav .nav-heading h1{
+    float: left;
+    margin-top: 23px;
+    font-size: 27px;
+    font-weight: 400;
+}
+.nav .nav-links{
+    float: right;
+    list-style: none;
+    
+}
+.nav .nav-links li{
+    display: inline-block;
+    margin-left: 25px;
+    font-size: 18px;
+   margin-top: 25px;
+  
+}
+.nav .nav-links li.active a,
+.nav .nav-links li :hover 
+{
+    color:#1ABC9C;
+    border-bottom: 2px solid #1ABC9C;
+    padding:10px 0
+    
+}
+.nav .nav-links a{
+   
+    color:white;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .5s;
+}
+.slide .overlay{
+    background-color: black;
+    opacity: .6;
+    width:100%;
+    height:100%;
+    position: absolute;
+    z-index: 1;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+.slide .bx-wrapper {
+    box-shadow: none;
+    border: 0;
+    background: none;
+    height:100%;
+    margin: 0;
+    text-align: center;
+}
+.slide .bx-wrapper .bx-viewport{
+    height:100% !important;
+}
+.slider{
+    height:100% !important;
+    
+    color:white
+}
+.slider div{
+    height:150px
+}
+.slider div h1{
+    font-size: 70px;
+    text-transform: capitalize;
+}
+.slider div h1 span{
+    color:#1ABC9C;
+}
+.slider div p{
+    font-size:30px
+}
+
+
+
+/*end navigation*/
+/*start services*/
+.services{
+    padding: 50px 0;
+}
+.services h3{
+    text-transform: capitalize;
+    margin-bottom: 50px;
+    font-size: 25px;
+    
+}
+.services h3 span{
+    display: inline-block;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+   
+}
+.services .container i{
+    color:#1ABC9C;
+}
+.services .container p,.services .container h5 {
+    color:#888897 ;
+    word-spacing: -2px;
+}
+
+/*end services*/
+/*start team*/
+
+.team{
+    padding: 40px 0;
+    
+}
+.team h3{
+    text-transform: capitalize;
+    
+    font-size: 25px;
+    
+}
+.team h3 span{
+    display: inline-block;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+   
+}
+.team .container p{
+    color:#888897 ;
+    word-spacing: -2px;
+}
+
+.team .container .images .div-image img{
+  width:90%;
+  height:90%
+}
+.team .container .images .div-image{
+    padding:0;
+    text-align: right;
+    position: relative;
+    
+}
+.im{
+    position:absolute;
+    right:0;
+    width: 90%;
+    height: 90%;
+    top:0;
+    background: turquoise;
+    opacity:.9;
+    display: none;
+    line-height:175px;
+    color:white;
+    text-align: center;
+    font-weight:bold;
+    font-size:20px;
+   
+
+}
+.team .container .images .div-image:hover .im{
+    display: block;
+}
+/*end team*/
+/*start testi*/
+.testi{
+    background-image: url(../images/keyboard.jpg);
+    background-size: cover;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    padding: 80px 0;
+    color: white;
+}
+.testi .overlay{
+    background-color: black;
+    opacity: .8;
+    width:100%;
+    height:100%;
+    position: absolute;
+   
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+.testi h1{
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 1;
+}
+.testi .autoslide{
+    position: relative;
+    z-index: 1;
+    padding: 0 100px;
+    font-size: 20px;
+    line-height: 40px;
+    color: rgb(153, 149, 149);
+}
+.testi .autoslide p{
+    color: turquoise;
+    
+    font-size: 30px;
+    margin-top: 35px;
+
+}
+.testi .autoslide >div{
+    display: none;
+}
+.testi div.active{
+    display: block;
+}
+
+/*end testi*/
+/*start shuffling*/
+.shuffling{
+padding:50px 0
+}
+.shuffling ul{
+    list-style: none;
+    padding:0;
+    margin:0;
+    margin-bottom: 40px;
+
+}
+.shuffling ul li{
+    display: inline-block;
+    border:2px solid rgb(102, 100, 100);
+    padding:5px 20px;
+    color: rgb(102, 100, 100);
+    margin-right:5px ;
+    border-radius: 5px;
+}
+.shuffling h3{
+    text-transform: capitalize;
+    margin-bottom: 50px;
+    font-size: 25px;
+    
+}
+.shuffling h3 span{
+    display: inline-block;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+   
+}
+.shuffling .row-img{
+    margin:0 0 10px;
+    
+}
+.shuffling .row-img>div{
+    width:32.5%;
+    display: inline-block;
+    position: relative;
+    margin-bottom:10px ;
+    
+}
+.shuffling .row-img>div img{
+    width:100%; 
+}
+.shuffling .row-img>div:nth-child(2),.shuffling .row-img>div:nth-child(5){
+    margin:0 5px
+}
+
+.shuffling ul li.active{
+    color:rgb(255, 252, 252);
+    background-color: turquoise;
+    border:2px solid turquoise
+    
+}
+.shuffling .row-img .overlay{
+    position:absolute;
+    right:0;
+    width: 100%;
+    height: 100%;
+    top:0;
+    background: turquoise;
+    opacity:.9;
+    display: none;
+    line-height:175px;
+    color:white;
+    text-align: center;
+    font-weight:bold;
+    font-size:20px;
+   
+
+}
+.shuffling .row-img div:hover .overlay{
+display: block;
+}
+.shuffling .row-img .overlay span{
+    position:absolute;
+    bottom:-70px;
+    right:10px
+}
+/*.shuffling .row-img .mix{
+    display: none;
+}*/
+
+/*start footer*/
+.footer {
+    background:#232323 ;
+    color: rgb(235, 232, 232);
+    padding: 50px;
+}
+.footer .classic h4{
+font-weight: normal;
+font-size: 18px;
+text-transform:capitalize;
+margin-bottom: 15px;
+}
+.footer .classic p
+{
+    color:#585757
+}
+.footer .classic i{
+    padding:12px;
+    border:1px solid #585757;
+    font-size: 20px;
+}
+.footer .tags h4{
+    font-weight: normal;
+    font-size: 18px;
+    text-transform:capitalize;
+    margin-bottom: 15px;
+    }
+.footer .tags span{
+    display: inline-block;
+    padding:10px;
+    border:1px solid #585757;
+    margin:2px;
+    text-transform: capitalize;
+}
+.footer .recent h4{
+    font-weight: normal;
+    font-size: 18px;
+    text-transform:capitalize;
+    margin-bottom: 15px;
+}
+.footer .recent .recent-content img{
+   margin-right: 1px;
+    
+
+}
+.footer .recent .media-body span{
+    color:#6C6C54
+}
+.footer .recent .recent-content .media-body h5{
+  text-transform: capitalize;
+  font-size:16px;
+  color:#CCCCCC;
+  
+}
+.footer .about h4{
+    font-weight: normal;
+    font-size: 18px;
+    text-transform:capitalize;
+    margin-bottom: 15px;
+}
+.footer .about .list-group{
+    background-color: none;
+    color:#CCCCCC
+}
+.footer .about .list-group .list-group-item{
+    background-color: transparent !important;
+    border-bottom:2px solid #CCCCCC;
+    padding:10px
+}
+
+
+
+
+
+
+/*end footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*end shuffling*/
